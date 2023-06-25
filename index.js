@@ -5,7 +5,7 @@ document.getElementById("login").addEventListener("click", function (event) {
   var username = document.getElementById("username").value;
   var password = document.getElementById("password").value;
 
-  if (username === "admin" && password === "password") {
+  if (username === "prasath" && password === "12345") {
       window.location.href = "dashboard.html";
   } else {
       alert("Invalid username or password");
